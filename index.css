@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/e9/fd/49/e9fd4958cd3a9990bc9aa4f6045467d7.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+    position: fixed;
+    z-index: 9999;
+}
+
+.yo img{
+    height: 90px;
+    width: auto;
+}
+
+.menu {
+    display: flex;
+    /* Asegura que el menú esté por encima de las secciones */
+}
+
+.menu li {
+    list-style: none;
+    margin: 10px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s easy;
+}
+
+.menu li a:hover {
+    padding: 5px 10px;
+    background: #51267F;
+    color: white;
+    border-radius: 15px;
+}
+
+.ft {
+    background-image: url("https://i.pinimg.com/originals/88/1e/97/881e975af06ff67857544c7b64e65cbc.gif");
+    color: #000;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: auto; /* Agregar desplazamiento */
+    padding-top: 100px; /* Agrega espacio para el menú fijo */
+}
+.pan {
+    background-image: url("https://i.pinimg.com/originals/af/07/83/af078313d59ae6b98d663e219256a16a.gif");
+    color: #000;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: auto; /* Agregar desplazamiento */
+    padding-top: 100px; /* Agrega espacio para el menú fijo */
+}
+.no {
+    background-image: url("https://i.pinimg.com/originals/b9/78/dc/b978dcaf0918ec2ebf1a4924a20cbee5.gif");
+    color: #000;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: auto; /* Agregar desplazamiento */
+    padding-top: 100px; /* Agrega espacio para el menú fijo */
+}
+.d {
+    background-image: url("https://i.pinimg.com/originals/0e/0f/bd/0e0fbd91a7aab2c86c8a252123bb3688.gif");
+    color: #000;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: auto; /* Agregar desplazamiento */
+    padding-top:100px; /* Agrega espacio para el menú fijo */
+}
+p {
+    color: white;
+    font-size: 25px;
+}
+
+h1,
+h2 {
+    font-size: 30px;
+    color: #640E0E;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.inicios {
+  
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    padding-top: 150px; /* Agrega un margen superior */
+}
