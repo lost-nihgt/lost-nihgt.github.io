@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.inicio{
+    
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.prensalibre.com/wp-content/uploads/2020/09/Colores-de-Guatemala-Negro-1.jpg?quality=52");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    
+}
+.inicio h1{
+    padding-top: 50px;
+    font-size: 100px;
+}
+.inicio h3{
+    padding-top: 0;
+    font-size: 30px;
+}
+
+.navegacion{
+    padding-top: 10px;
+    flex-direction: row-reverse;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+    position: fixed;
+    z-index: 9999;
+}
+
+.navegacion ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navegacion li {
+    margin-right: 50px;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.navegacion a:hover {
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: gray;
+}
+.num1{
+    padding-top: 50px;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://aprende.guatemala.com/wp-content/uploads/2017/02/Departamento-de-Peten-Republica-de-Guatemala-1.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    text-align: center;
+    color: black;
+    text-align: center;
+}
+.num1 h1{
+    font-size: 50px;
+}
+.num1 h3{
+    font-size: 30px;
+}
+.num1 p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
