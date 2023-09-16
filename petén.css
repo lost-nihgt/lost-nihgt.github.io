@@ -1,33 +1,74 @@
+/* Estilos globales */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
 }
 
-.inicio{
-    
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-image: url("https://www.prensalibre.com/wp-content/uploads/2020/09/Colores-de-Guatemala-Negro-1.jpg?quality=52");
-    background-size: cover;
-    background-position: center;
+/* Estilos de las secciones de contenido */
+.num1, .num2, .num3 {
+    padding: 50px 0;
     text-align: center;
-    color: white;
-    
-}
-.inicio h1{
-    padding-top: 50px;
-    font-size: 100px;
-}
-.inicio h3{
-    padding-top: 0;
-    font-size: 30px;
 }
 
+.num1 h1, .num2 h1, .num3 h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.num1 h3, .num2 h3, .num3 h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.num1 p, .num2 p, .num3 p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Estilos de las imágenes en las secciones de contenido */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.post {
+    margin-bottom: 30px;
+}
+
+.blog-img img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px grey;
+    transition: transform 0.3s ease;
+}
+
+.blog-content {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos de interacción al pasar el mouse sobre las imágenes */
+.blog-img img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para las secciones de turismo */
+.num3 {
+    background-color: #f5f5f5;
+}
+
+/* Estilos de la barra de navegación */
 .navegacion{
     padding-top: 10px;
     flex-direction: row-reverse;
@@ -63,25 +104,166 @@ html {
     border-radius: 15px;
     background-color: gray;
 }
-.num1{
-    padding-top: 50px;
+
+/* Estilos de la sección de inicio */
+.inicio {
+    position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url("https://aprende.guatemala.com/wp-content/uploads/2017/02/Departamento-de-Peten-Republica-de-Guatemala-1.jpg");
+    background-image: url("https://www.prensalibre.com/wp-content/uploads/2020/09/Colores-de-Guatemala-Negro-1.jpg?quality=52");
     background-size: cover;
     background-position: center;
-    overflow: auto;
     text-align: center;
-    color: black;
-    text-align: center;
+    color: white;
 }
-.num1 h1{
-    font-size: 50px;
+
+.inicio h1 {
+    padding-top: 50px;
+    font-size: 100px;
 }
-.num1 h3{
+
+.inicio h3 {
+    padding-top: 0;
     font-size: 30px;
 }
-.num1 p{
-    font-size: 20px;
-    font-weight: bold;
+
+/* Estilos de las secciones de contenido */
+/* Estilos de las secciones de contenido */
+
+
+/* Estilos de los títulos (h1) en las secciones de contenido */
+.container h1 {
+    font-size: 28px; /* Cambia el tamaño de fuente según tu preferencia */
+    margin-bottom: 10px; /* Agrega espacio entre el título y el párrafo */
 }
+
+/* Estilos de los párrafos (p) en las secciones de contenido */
+.container p {
+    font-size: 16px; /* Cambia el tamaño de fuente según tu preferencia */
+    margin-top: 10px; /* Agrega espacio entre párrafos */
+}
+
+/* Estilos para la primera sección */
+.num1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://live.staticflickr.com/6047/6855589806_7b02ee5f61_b.jpg); /* Degradado de fondo */
+    border-top: 2px solid #006400; /* Borde superior */
+    border-bottom: 2px solid #006400; /* Borde inferior */
+    padding: 50px 0;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white; /* Color de texto */
+}
+
+/* Estilos para la segunda sección */
+/* Estilos para la segunda sección con fondo de imagen */
+.num2 {
+    background-image: url('https://live.staticflickr.com/5346/7234652298_2b6dbfb6a7_b.jpg'); /* Reemplaza 'URL_DE_TU_IMAGEN' con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+    color: #908a8a; /* Color de texto */
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+/* Estilos para la tercera sección */
+/* Estilos para la tercera sección con fondo de imagen */
+.num3 {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvH7NM8hl42Cf0WrtsULU4Z0aNg1AofrOxjVUG89pyyDJjMlU_URbxbwik523pLTXXslmkgi6tFnqx5x0Wl6k5wgwKfr-Nb0sjmqMc9_SIl7Iig6I2LfnYmoiQ0CUTOZRmJLCTegCoyPCAfisX7MyyGVbiBZoHZ1vqWYKC-uRv13vmUteWy0Tng1hzIUvK/s1600/Madrugada%20en%20Tres%20Naciones,%20lluvia%20de%20Perseidas,%20luci%C3%A9rnagas,%20salidad%20de%20la%20luna%20en%20el%20lago%20Pet%C3%A9n%20Itz%C3%A1,%20Flores,%20Pet%C3%A9n.jpg'); /* URL de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Color de texto */
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+/* Estilos para el video de YouTube */
+/* Estilos para el video de YouTube */
+.video-container {
+    max-width: 800px; /* Ancho máximo deseado */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 400px; /* Altura deseada */
+}
+/* Estilos para el video de YouTube */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporción 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+
+.num2 .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.num2 .post {
+    border: 0.2rem solid var(--bg);
+    border-radius: 10px;
+    height: auto;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px grey;
+    transition: 0.4s linear all;
+}
+
+.num2 .post:hover {
+    transform: translate(0px, -5px);
+}
+.num3 .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.num3 .post {
+    border: 0.2rem solid var(--bg);
+    border-radius: 10px;
+    height: auto;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px grey;
+    transition: 0.4s linear all;
+}
+
+.num3 .post:hover {
+    transform: translate(0px, -5px);
+}
+
+/* Estilos para el ícono de Instagram */
+.instagram-icon {
+    position: fixed;
+    bottom: 20px; /* Ajusta la distancia desde la parte inferior según tu preferencia */
+    right: 20px; /* Ajusta la distancia desde la derecha según tu preferencia */
+    background-color: #E1306C; /* Color de fondo del ícono de Instagram */
+    color: white; /* Color del ícono */
+    width: 40px; /* Ancho del ícono */
+    height: 40px; /* Altura del ícono */
+    border-radius: 50%; /* Hace que el ícono sea circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; /* Tamaño del ícono */
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .instagram-icon i {
+    font-size: 24px; /* Tamaño del ícono de Instagram */
+  }
+  
+  /* Estilos para cambiar el color de fondo al pasar el mouse sobre el ícono */
+  .instagram-icon:hover {
+    background-color: #C2185B; /* Color de fondo al pasar el mouse */
+    transform: scale(1.1); /* Efecto de escala al pasar el mouse */
+  }
+  
